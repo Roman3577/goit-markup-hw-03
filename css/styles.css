@@ -124,10 +124,17 @@ color: #404bbf;
 }
 
 .first-screen {
+   
     background-color: #2e2f42;
+    padding-bottom: 188px;
 }
 
 .title {
+    padding-top: 188px;
+    padding-bottom: 48px;
+    max-width: 496px;
+   margin-left: auto;
+   margin-right: auto;
     font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
@@ -137,6 +144,13 @@ color: #404bbf;
 }
 
 .title-button {
+   display: block;
+    border: 0px solid;
+margin-left: auto;
+margin-right: auto;
+    border-radius: 4px;
+    padding: 16px 32px;
+        min-width: 169px;
     cursor: pointer;
     background-color:#4d5ae5; 
     font-weight: 500;
@@ -148,6 +162,8 @@ color: #404bbf;
  .title-button:focus{
     background-color: #404bbf;
  }
+
+ 
  
      
     
