@@ -197,11 +197,14 @@ margin-right: auto;
     letter-spacing: 0.02em;
 }
 
-
+.team-description{
+    background-color: #F4F4FD
+}
 
 
 .page-title{
     padding-top: 120px;
+    margin-bottom: 72px;
     margin-left: auto;
     margin-right: auto;
     font-size: 36px;
@@ -212,6 +215,8 @@ margin-right: auto;
     color: #2e2f42;
 
 }
+
+
 
 
 .team-list.team-item{
@@ -226,7 +231,6 @@ margin-right: auto;
 
 .team-item{
     display: block;
-   margin-top: 72px;
    padding-bottom: 120px;
 }
 
@@ -248,3 +252,19 @@ display: block;
     padding-top: 148px ;
     padding-bottom: 120px;
 }
+
+.portfolio-list{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.portfolio-title{
+    text-align: start;
+}
+
+.description-portfolio{
+    text-align: start;
+}
+
