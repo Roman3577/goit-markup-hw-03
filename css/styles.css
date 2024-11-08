@@ -136,7 +136,7 @@ padding-top: 188px;
 }
 
 .title {
-    border: none;
+   
     padding-top: 188px;
     padding-bottom: 48px;
     max-width: 496px;
@@ -152,7 +152,7 @@ padding-top: 188px;
 
 .title-button {
    display: block;
-    border: 0px solid;
+    border: none;
 margin-left: auto;
 margin-right: auto;
     border-radius: 4px;
@@ -295,7 +295,8 @@ display: block;
 }
 
 .portfolio-item{
-    margin-bottom: 0;
+    row-gap: 48px;
+    margin-bottom: 48px;
         padding-bottom: 120px;
 }
 
