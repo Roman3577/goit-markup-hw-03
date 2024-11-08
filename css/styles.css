@@ -121,6 +121,8 @@ color: #404bbf;
 
 .page-footer{
     background-color: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 188px;
 }
 
 .first-screen {
@@ -169,6 +171,8 @@ margin-right: auto;
     
 
 .description-footer{
+    margin-top: 16px;
+    width: 264px;
     font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -230,7 +234,7 @@ margin-right: auto;
 }
 
 .team-item{
-    display: block;
+    
    padding-bottom: 120px;
 }
 
@@ -260,11 +264,17 @@ display: block;
     flex-wrap: wrap;
 }
 
+.portfolio-item{
+    
+        padding-bottom: 120px;
+}
+
 .portfolio-title{
     text-align: start;
 }
 
 .description-portfolio{
     text-align: start;
+
 }
 
