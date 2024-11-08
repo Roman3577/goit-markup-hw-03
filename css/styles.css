@@ -177,6 +177,9 @@ margin-right: auto;
 }
 
 .title-description {
+    text-align: center;
+    background-color: #FFFFFF;
+    padding-top: 32px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -186,16 +189,21 @@ margin-right: auto;
 }
 
 .description-item {
+    text-align: center;
+    background-color: #FFFFFF;
+    padding-top: 8px;
+    padding-bottom: 32px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.team-description{
-    background-color: #F4F4FD
-}
+
 
 
 .page-title{
+    padding-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -209,6 +217,20 @@ margin-right: auto;
 .team-list.team-item{
     background-color: #FFFFFF;
 }
+
+.team-list{
+    display: flex;
+        align-items: center;
+        gap: 24px;
+}
+
+.team-item{
+    display: block;
+   margin-top: 72px;
+   padding-bottom: 120px;
+}
+
+
 
 .second-screen{
     display: flex;
