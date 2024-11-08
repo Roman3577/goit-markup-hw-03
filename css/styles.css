@@ -267,7 +267,7 @@ margin-right: auto;
 
 
 .second-screen{
-    padding: 120px 0 120px
+    padding: 120px 0 120px;
     display: flex;
     align-items: center;
 }
@@ -279,7 +279,7 @@ display: flex;
 }
 
 .item-description{
-    flex-basis: calc((100% - 72px) / 4))
+flex-basis: calc((100% - 3 * 24px) / 4);
 display: block;
     padding-top: 148px ;
     padding-bottom: 120px;
@@ -295,7 +295,7 @@ display: block;
 }
 
 .portfolio-item{
-    margin-bottom: 0
+    margin-bottom: 0;
         padding-bottom: 120px;
 }
 
