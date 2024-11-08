@@ -209,3 +209,20 @@ margin-right: auto;
 .team-list.team-item{
     background-color: #FFFFFF;
 }
+
+.second-screen{
+    display: flex;
+    align-items: center;
+}
+
+.title-list{
+display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.item-description{
+display: block;
+    padding-top: 148px ;
+    padding-bottom: 120px;
+}
