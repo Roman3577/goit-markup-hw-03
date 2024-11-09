@@ -292,18 +292,27 @@ display: block;
 
 .portfolio-list{
     display: flex;
-    align-items: center;
-     row-gap: 48px; 
+    align-items:center;
+    row-gap: 48px;
+    column-gap: 24px;
+     
      /* margin-bottom: 48px; */
-    gap: 24px;
+    
     flex-wrap: wrap;
 }
 
 .portfolio-item{
-     row-gap: 48px; 
+margin-right: 24px;
+width: calc((100% - 48px) / 3);
+}
+
     /* margin-bottom: 48px; */
         /* padding-bottom: 120px; */
-        flex-wrap: wrap;
+       
+
+
+.portfolio-item:nth-child(3n){
+    margin-right: 0;
 }
 
 /* .portfolio-title{
